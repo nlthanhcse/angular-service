@@ -1,0 +1,5 @@
+<div class="list-group-item list-group-item-action"
+     *ngFor="let user of users; let i = index"
+>
+  <h5>{{ user.name }} | <a href="#" (click)="setToInactive(i)">Set to inactive</a></h5>
+</div>
